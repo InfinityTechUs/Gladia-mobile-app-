@@ -7,9 +7,11 @@ It's a ecommerce app to a Pet Shop.
 
 ✔ Features 
 ------------
-- CRUD <br/>
-- An agenda to schedule baths and shears for your dog 🐕<br/>
-- A point of sale <br/>
+- Allow generation and import of JSON files <br/>
+- At least one Widget relevant to the application <br/>
+- Correct use of strings, colors and dimensions files for static values <br/>
+- Handling at least one device resource (sensors or Action Pick) <br/>
+- Object Orientation <br/>
 
 ## ⚙ API
 It's a API database, [API Link](https://github.com/InfinityTechUs/GladiaAPI)
