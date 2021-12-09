@@ -7,7 +7,7 @@ It's a ecommerce app to a Pet Shop.
 
 ✔ Features 
 ------------
-- CRUD Mysql  <br/>
+- CRUD <br/>
 - An agenda to schedule baths and shears for your dog 🐕<br/>
 - A point of sale <br/>
 
