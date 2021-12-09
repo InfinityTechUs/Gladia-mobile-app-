@@ -1,6 +1,4 @@
-## GLadia Mobile App
-
-## Dom Tchochoro
+## Gladia Mobile App
 
 ## 📖 About The Projeto
 It's a ecommerce app to a Pet Shop.
