@@ -1,6 +1,4 @@
-<h1 align="center">
-    <img alt="Dom Tchochoro" src=".github/Logo.png" width="200px" />
-</h1>
+Gladia Mobile App
 
 ## Dom Tchochoro
 
