@@ -1,0 +1,47 @@
+<resources>
+    <string name="app_name">TCC</string>
+    <string name="btn_cd">Cadastrar-me</string>
+    <string name="img_fingerprint"></string>
+    <string name="img_dom"></string>
+    <string name="txt_cd"></string>
+    <string name="txt_ja">Já tenho conta</string>
+    <string name="txt_entrar">Entrar sem conta</string>
+    <string name="txt_direitos">Todos os direitos reservados</string>
+    <string name="txt_title_create_acc">Crie a conta</string>
+    <string name="btn_next_acc">Continuar</string>
+    <string name="btn_finish_acc">Criar</string>
+    <string name="hint_password">Senha</string>
+    <string name="hint_email">Email</string>
+    <string name="hint_cpf">CPF</string>
+    <string name="hint_nome">Nome</string>
+    <string name="img_arrow_create_acc"></string>
+    <string name="txt_title_login">Entre na sua conta</string>
+    <string name="txt_title_create_acc_2nd">Quase lá</string>
+    <string name="hint_tel">Telefone</string>
+    <string name="hint_cep">CEP</string>
+    <string name="hint_uf">UF</string>
+    <string name="hint_cidade">Cidade</string>
+    <string name="hint_endereco">Endereço</string>
+    <string name="hint_complemento">Complemento</string>
+    <string name="hint_bairro">Bairro</string>
+    <string name="product_name">Ração Golden Special Sabor Frango e Carne para...</string>
+    <string name="price_product">R$ 50,99</string>
+    <string name="see_more_product">Ver mais</string>
+    <string name="navigation_drawer_open"> </string>
+    <string name="navigation_drawer_close"> </string>
+    <string name="img_carrinho"></string>
+    <string name="text_title_product">Detalhes do Produto</string>
+    <string name="btn_add_car">Adicionar ao carrinho</string>
+    <string name="descri_product_title">Descrição</string>
+    <string name="descri_product">Idade: Adulto\n Linha: Premium\n Pet: Cachorros\n Porte de Raça: Médio, Grande e Pequeno\n Tipo: Rações Secas\n Sabor: Carne e Frango\n Indicação: Alimentação diária de cães adultos\n Apresentação:\n Disponível em embalagens de 15kg e 20kg\n\n Medidas\n aproximadas: Oblongo (oval) de aproximadamente, 15,5mm de altura, 11,0mm de largura e 10,0mm de corte.\n\n Composição: Farinha de vísceras de frango, farinha\n milho integral moído, quirera de arroz gordura de frango, farelo de arroz desengordurado, hidrolisado de frango, premix vitamínico mineral, cloreto de sódio, cloreto de, parede celular de levedura, antioxidantes BHA e BHT.</string>
+    <string name="btn_arrow_seemore"></string>
+    <string name="txt_title_carrinho">Carrinho</string>
+    <string name="txt_excluir">excluir</string>
+    <string name="product_name_2">Ração Golden Special</string>
+    <string name="descricao">Descrição</string>
+    <string name="txt_title_desc">title</string>
+    <string name="finalizar">Finalizar compra</string>
+    <string name="descri">Descrição do produto</string>
+    <string name="marca">Fabricante:</string>
+
+</resources>
