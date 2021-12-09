@@ -1,4 +1,6 @@
-# Gladia-mobile-app-
+<h1 align="center">
+    <img alt="Dom Tchochoro" src=".github/Logo.png" width="200px" />
+</h1>
 
 ## Dom Tchochoro
 
