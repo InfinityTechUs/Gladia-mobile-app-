@@ -102,7 +102,7 @@ public class HomeActivity extends AppCompatActivity implements NavigationView.On
         images.add(new SlideModel(R.drawable.toy_slide, null));
         images.add(new SlideModel(R.drawable.truck_slider, null));
 
-        imageSlider.setImageList(images, ScaleTypes.CENTER_CROP);
+        imageSlider.setImageList(images, ScaleTypes.CENTER_INSIDE);
 
         /*-------------- Navigation Drawer Menu ----------------*/
         navigationView.bringToFront();
