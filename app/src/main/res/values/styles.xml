@@ -11,8 +11,8 @@
         <!-- Used to color the text of the action menu icons -->
         <item name="android:textColorSecondary">#fff</item>
         <!-- Used to color the overflow menu icon -->
-        <item name="actionMenuTextColor">#fff</item>
+        <item name="actionMenuTextColor">@color/blue</item>
         <!-- Color of the Toolbar -->
-        <item name="android:background">#2B94F9</item>
+        <item name="android:background">@color/blue</item>
     </style>
 </resources>
