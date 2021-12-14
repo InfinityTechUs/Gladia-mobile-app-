@@ -49,5 +49,7 @@
     <string name="info_account">Informações do Perfil</string>
     <string name="gen_address">Gerenciar Endereço</string>
     <string name="btn_delete_account">Excluir a Conta</string>
+    <string name="picpay">PicPay</string>
+    <string name="paypal">Paypal</string>
 
 </resources>

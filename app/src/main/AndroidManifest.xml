@@ -15,6 +15,15 @@
         android:theme="@style/Theme.SplashScreen"
         android:usesCleartextTraffic="true">
         <activity
+            android:name=".ReciboActivity"
+            android:exported="false" />
+        <activity
+            android:name=".PaymenteActivity"
+            android:exported="false" />
+        <activity
+            android:name=".models.PaymentActivity"
+            android:exported="false" />
+        <activity
             android:name=".UserActivity"
             android:exported="true" />
         <activity
