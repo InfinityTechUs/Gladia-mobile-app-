@@ -54,7 +54,7 @@ public class HomeActivity extends AppCompatActivity implements NavigationView.On
 
 
         Retrofit retrofit = new Retrofit.Builder()
-                .baseUrl("http://94ed-191-19-238-127.ngrok.io/api/")
+                .baseUrl("http://864f-201-69-236-42.ngrok.io/api/")
                 .addConverterFactory(GsonConverterFactory.create())
                 .build();
 
@@ -102,7 +102,7 @@ public class HomeActivity extends AppCompatActivity implements NavigationView.On
         images.add(new SlideModel(R.drawable.toy_slide, null));
         images.add(new SlideModel(R.drawable.truck_slider, null));
 
-        imageSlider.setImageList(images, ScaleTypes.CENTER_INSIDE);
+        imageSlider.setImageList(images, ScaleTypes.FIT);
 
         /*-------------- Navigation Drawer Menu ----------------*/
         navigationView.bringToFront();

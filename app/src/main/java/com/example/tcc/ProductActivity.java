@@ -1,6 +1,8 @@
 package com.example.tcc;
 
+import androidx.appcompat.app.ActionBarDrawerToggle;
 import androidx.appcompat.app.AppCompatActivity;
+import androidx.drawerlayout.widget.DrawerLayout;
 
 import android.content.Intent;
 import android.graphics.Bitmap;
@@ -16,6 +18,7 @@ import android.widget.Toast;
 
 import com.example.tcc.models.Cart;
 import com.example.tcc.models.Products;
+import com.google.android.material.navigation.NavigationView;
 import com.squareup.picasso.Picasso;
 
 import java.io.IOException;
@@ -31,6 +34,9 @@ public class ProductActivity extends AppCompatActivity {
     TextView nome, price, desc, brand;
     ImageView imgProduct;
     Products product;
+    DrawerLayout drawerLayout;
+    NavigationView navigationView;
+    androidx.appcompat.widget.Toolbar toolbar;
 
     private List<Cart> listCart;
     private ListAdapterCart adapterCart;
@@ -47,6 +53,16 @@ public class ProductActivity extends AppCompatActivity {
         desc = findViewById(R.id.desc_product);
         brand = findViewById(R.id.desc_brand);
         imgProduct = findViewById(R.id.img_product);
+        drawerLayout = findViewById(R.id.drawar_layout);
+        navigationView = findViewById(R.id.nav_view);
+        toolbar = findViewById(R.id.toolbar);
+
+        setSupportActionBar(toolbar);
+
+        navigationView.bringToFront();
+        ActionBarDrawerToggle toggle = new ActionBarDrawerToggle(this, drawerLayout, toolbar, R.string.navigation_drawer_open, R.string.navigation_drawer_close);
+        drawerLayout.addDrawerListener(toggle);
+        toggle.syncState();
 
 
         Intent intent = getIntent();

@@ -43,5 +43,7 @@
     <string name="finalizar">Finalizar compra</string>
     <string name="descri">Descrição do produto</string>
     <string name="marca">Fabricante:</string>
+    <string name="paypal">Paypal</string>
+    <string name="picpay">PicPay</string>
 
 </resources>

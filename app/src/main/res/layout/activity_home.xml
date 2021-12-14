@@ -57,8 +57,8 @@
 
                 <com.denzcoskun.imageslider.ImageSlider
                     android:id="@+id/image_slider"
-                    android:layout_width="match_parent"
-                    android:layout_height="match_parent"
+                    android:layout_width="wrap_content"
+                    android:layout_height="170dp"
                     app:iss_auto_cycle="true"
                     app:iss_period="3000">
 
@@ -73,7 +73,7 @@
                 android:background="@color/theme"
                 android:orientation="vertical"
                 android:paddingLeft="15dp"
-                android:paddingTop="60dp"
+                android:paddingTop="10dp"
                 android:paddingRight="15dp"
                 app:layout_constraintBottom_toBottomOf="parent"
                 app:layout_constraintEnd_toEndOf="parent"
@@ -85,7 +85,8 @@
                 <androidx.recyclerview.widget.RecyclerView
                     android:id="@+id/listRecyclerView"
                     android:layout_width="383dp"
-                    android:layout_height="377dp" />
+                    android:layout_height="377dp"
+                    android:layout_marginLeft="17dp"/>
             </LinearLayout>
 
             <ImageView
