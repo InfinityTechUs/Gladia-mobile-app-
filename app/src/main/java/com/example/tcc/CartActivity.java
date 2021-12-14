@@ -53,6 +53,12 @@ public class CartActivity extends AppCompatActivity {
 
         btn_finish = findViewById(R.id.btn_finish_order);
 
+        btn_finish.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Intent intent = new Intent(CartActivity.this, PaymenteActivity.class);
+                startActivity(intent);
+            }
+        });
     }
-
 }

@@ -77,7 +77,7 @@ public class CreateAccount extends AppCompatActivity {
         User user = new User(cpf, tel, name, email, password);
 
         Retrofit retrofit = new Retrofit.Builder()
-                .baseUrl("http://94ed-191-19-238-127.ngrok.io/api/")
+                .baseUrl("http://864f-201-69-236-42.ngrok.io/api/")
                 .addConverterFactory(GsonConverterFactory.create())
                 .build();
 

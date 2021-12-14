@@ -76,7 +76,7 @@ public class Login extends AppCompatActivity implements SensorEventListener {
         String password = ((EditText)findViewById(R.id.login_password)).getText().toString();
 
         Retrofit retrofit = new Retrofit.Builder()
-                .baseUrl("http://4d56-191-19-238-127.ngrok.io/api/")
+                .baseUrl("http://864f-201-69-236-42.ngrok.io/api/")
                 .addConverterFactory(GsonConverterFactory.create())
                 .build();
 

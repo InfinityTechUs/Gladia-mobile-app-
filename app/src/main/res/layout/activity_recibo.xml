@@ -20,7 +20,6 @@
 
     </com.google.android.material.navigation.NavigationView>
 
-
     <ScrollView
         android:layout_width="match_parent"
         android:layout_height="match_parent">
@@ -47,46 +46,20 @@
             <LinearLayout
                 android:id="@+id/linearLayout"
                 android:layout_width="0dp"
-                android:layout_height="220dp"
-                android:orientation="horizontal"
-                app:layout_constraintBottom_toTopOf="@+id/linearLayout2"
-                app:layout_constraintEnd_toEndOf="parent"
-                app:layout_constraintHorizontal_bias="0.0"
-                app:layout_constraintStart_toStartOf="parent"
-                app:layout_constraintTop_toBottomOf="@+id/toolbar">
-
-                <com.denzcoskun.imageslider.ImageSlider
-                    android:id="@+id/image_slider"
-                    android:layout_width="wrap_content"
-                    android:layout_height="220dp"
-                    app:iss_auto_cycle="true"
-                    app:iss_period="3000">
-
-                </com.denzcoskun.imageslider.ImageSlider>
-
-            </LinearLayout>
-
-            <LinearLayout
-                android:id="@+id/linearLayout2"
-                android:layout_width="412dp"
-                android:layout_height="437dp"
-                android:background="@color/theme"
+                android:layout_height="605dp"
                 android:orientation="vertical"
-                android:paddingLeft="15dp"
-                android:paddingTop="10dp"
-                android:paddingRight="15dp"
-                app:layout_constraintBottom_toBottomOf="parent"
                 app:layout_constraintEnd_toEndOf="parent"
                 app:layout_constraintHorizontal_bias="1.0"
                 app:layout_constraintStart_toStartOf="parent"
-                app:layout_constraintTop_toBottomOf="@+id/linearLayout"
-                app:layout_constraintVertical_bias="0.0" >
+                app:layout_constraintTop_toBottomOf="@+id/toolbar">
 
-                <androidx.recyclerview.widget.RecyclerView
-                    android:id="@+id/listRecyclerView"
-                    android:layout_width="383dp"
-                    android:layout_height="377dp"
-                    android:layout_marginLeft="17dp"/>
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:src="@drawable/recibo">
+
+                </ImageView>
+
             </LinearLayout>
 
             <ImageView
@@ -103,4 +76,6 @@
 
         </androidx.constraintlayout.widget.ConstraintLayout>
     </ScrollView>
+
+
 </androidx.drawerlayout.widget.DrawerLayout>
