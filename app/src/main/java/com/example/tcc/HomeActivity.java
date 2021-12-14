@@ -113,9 +113,11 @@ public class HomeActivity extends AppCompatActivity implements NavigationView.On
         navigationView.setNavigationItemSelectedListener(this);
 
 
-
+        navigationView.setCheckedItem(R.id.nav_home);
 
     }
+
+
 
     public void createCard(List<Products> products) {
         ListAdapter listAdapter = new ListAdapter(products, this, this::ClickedProduct);
@@ -137,6 +139,19 @@ public class HomeActivity extends AppCompatActivity implements NavigationView.On
 
     @Override
     public boolean onNavigationItemSelected(@NonNull MenuItem item) {
+        switch (item.getItemId()){
+            case R.id.nav_home:
+                break;
+            case R.id.nav_myacc:
+                Intent intent = new Intent(HomeActivity.this, UserActivity.class);
+                startActivity(intent);
+                break;
+
+            //case R.id.nav_category:
+             //   Intent in = new Intent(HomeActivity.this, CardACtivity.class);
+              //  startActivity(in);
+               // break;
+        }
         return true;
     }
 
