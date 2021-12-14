@@ -4,6 +4,7 @@
         <item name="android:statusBarColor">#2B94F9</item>
     </style>
     <style name="MyToolbarStyle" parent="ThemeOverlay.AppCompat.ActionBar">
+        <item name="android:statusBarColor">@color/blue</item>
         <!-- Used to for the title of the Toolbar -->
         <item name="android:textColorPrimary">#fff</item>
         <!-- Used to for the title of the Toolbar when parent is Theme.AppCompat.Light -->
