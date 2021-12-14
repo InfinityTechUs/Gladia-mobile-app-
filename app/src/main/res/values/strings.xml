@@ -43,5 +43,11 @@
     <string name="finalizar">Finalizar compra</string>
     <string name="descri">Descrição do produto</string>
     <string name="marca">Fabricante:</string>
+    <string name="name_user">Olá, Ian Gustavo</string>
+    <string name="myorders">Meus Pedidos</string>
+    <string name="conf_account">Configurações da Conta</string>
+    <string name="info_account">Informações do Perfil</string>
+    <string name="gen_address">Gerenciar Endereço</string>
+    <string name="btn_delete_account">Excluir a Conta</string>
 
 </resources>
